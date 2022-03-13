@@ -16,7 +16,7 @@ int main(void)
 	{
 		for (number_right = number_left + 1 ; number_right <= 57; number_right++)
 		{
-			
+
 			putchar(number_left);
 			putchar (number_right);
 
