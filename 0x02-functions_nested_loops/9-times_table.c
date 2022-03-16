@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * times_table -prints tables
  *
@@ -27,7 +28,7 @@ void times_table(void)
 				}
 				if (b < 9)
 				{
-					_putchar(',')
+					;_putchar(',')
 					_putchar (' ');
 				}
 			}
