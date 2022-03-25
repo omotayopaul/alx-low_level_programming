@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * *_strcat - Concatenates two strings
@@ -13,9 +14,9 @@ char *_strcat(char *dest, char *src)
 	int counterS = 0, counterD = 0,  i, j;
 
 	for (s = src; *s != '\0'; s++)
-	counterS++;
+		counterS++;
 	for (d = dest; *d != '\0'; d++)
-	counterD++;
+		counterD++;
 	
 	j = counterD;
 	for (i  = 0; i < counterS; i++)
